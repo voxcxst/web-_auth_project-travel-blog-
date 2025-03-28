@@ -1,15 +1,15 @@
-/* Reset */
-body, h1, h2, h3, p, ul {
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    background: #f8f8f8;
 }
 
-/* Navigation */
 header {
     background: #333;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -26,6 +26,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 /* Hero Section */
@@ -44,30 +45,71 @@ nav ul li a {
     cursor: pointer;
 }
 
-/* Featured Section */
-.featured {
-    padding: 40px;
-    text-align: center;
-}
-
-.destination-grid {
+/* Grid for Destinations */
+.destination-grid, .tips-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
+    padding: 20px;
 }
 
-.destination img {
-    width: 200px;
-    height: 150px;
+.destination, .tip, .post {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.destination img, .post img {
+    width: 100%;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-/* Footer */
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
+.destination a, .post a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ff9800;
+    font-weight: bold;
 }
+
+/* Contact Form */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: #ff9800;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .destination-grid, .tips-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form form {
+        width: 80%;
+    }
+}
+
