@@ -30,7 +30,7 @@ nav ul li a {
 }
 
 /* Hero Section Text */
-.hero h2 {
+.hero  {
     color: #FF9800; /* Orange color */
     font-size: 2rem;
     font-weight: bold;
