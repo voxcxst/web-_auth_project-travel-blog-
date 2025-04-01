@@ -32,7 +32,7 @@ nav ul li a {
 /* Hero Section */
 .hero {
     background: url('images/hero.jpg') center/cover no-repeat;
-    color: white;
+    color: #ff9800;
     text-align: center;
     padding: 100px 20px;
 }
