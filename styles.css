@@ -38,10 +38,12 @@ nav ul li a {
 
 .hero h2 {
     font-size: 2rem;
+    color: #FF9800;
 }
 
 .hero p {
     font-size: 1.2rem;
+    color: #FF9800;
 }
 
 .hero button {
