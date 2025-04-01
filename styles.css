@@ -54,6 +54,10 @@ nav ul li a {
     border: none;
     cursor: pointer;
 }
+
+.hero h2, .hero p {
+    color: #FF9800 !important; /* Forces the color to apply */
+}
 /* Grid for Destinations */
 .destination-grid, .tips-list {
     display: flex;
