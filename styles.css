@@ -29,22 +29,17 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Hero Section */
-.hero {
-    background: url('images/hero.jpg') center/cover no-repeat;
-    color: grey;
-    text-align: center;
-    padding: 100px 20px;
+/* Hero Section Text */
+.hero h2 {
+    color: #FF9800; /* Orange color */
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-.hero button {
-    background: #ff9800;
-    color: grey;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+.hero p {
+    color: #FF9800; /* Orange color */
+    font-size: 1.2rem;
 }
-
 /* Grid for Destinations */
 .destination-grid, .tips-list {
     display: flex;
