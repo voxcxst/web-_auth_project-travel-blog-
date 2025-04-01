@@ -29,17 +29,22 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Hero Section */
-.hero {
-    position: relative;
-    background: url('images/hero.jpg') center/cover no-repeat;
-    text-align: center;
-    padding: 100px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
+/* Hero Button */
+.hero button {
+    background: #FF9800;  /* Orange background */
+    color: #FFF;  /* White text for readability */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;  /* Rounded corners */
+    transition: background 0.3s ease;
+}
+
+/* Button Hover Effect */
+.hero button:hover {
+    background: #E68900;  /* Slightly darker orange on hover */
 }
 
 /* Dark Overlay to Improve Readability */
