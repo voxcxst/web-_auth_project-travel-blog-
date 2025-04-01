@@ -41,16 +41,25 @@
     cursor: pointer;
 }
 
+/* Style the Heading */
+.tips-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center; /* Centers the heading */
+    padding: 20px;
+}
+
 /* Center the Tips Section */
 .tips {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    max-width: 1200px; /* Ensures it doesn't stretch too much */
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    justify-content: center; /* Centers the grid items */
+    justify-content: center;
 }
+
 
 /* Ensure tips are properly styled */
 .tip {
