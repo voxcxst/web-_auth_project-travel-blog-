@@ -113,11 +113,12 @@ nav ul li a {
     }
 }
 /* Explore Section Styling */
+/* Explore Section Styling */
 .explore-section {
-    background-image: url('https://example.com/your-image.jpg'); /* Replace with your own image URL */
+    background-image: url('https://example.com/your-image.jpg'); /* Replace with your chosen image URL */
     background-size: cover;
     background-position: center;
-    color: orange; /* Changed text color to orange */
+    color: orange; /* Text color set to orange */
     text-align: center;
     padding: 100px 20px;
     height: 400px; /* Adjust the height as needed */
