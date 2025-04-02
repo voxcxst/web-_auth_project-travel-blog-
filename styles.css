@@ -112,3 +112,26 @@ nav ul li a {
         width: 80%;
     }
 }
+/* Explore Section Styling */
+.explore-section {
+    background-image: url('https://example.com/your-image.jpg'); /* Replace with your own image URL */
+    background-size: cover;
+    background-position: center;
+    color: orange; /* Changed text color to orange */
+    text-align: center;
+    padding: 100px 20px;
+    height: 400px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 4px solid #333; /* Optional, adds a border at the bottom */
+}
+
+.explore-section h2 {
+    font-size: 3em; /* Adjust the size of the heading */
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Optional, adds shadow for better readability */
+}
+
