@@ -205,7 +205,7 @@ nav ul li a {
     background-position: center center; /* Centers the image within the section */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     padding: 40px; /* Add padding to keep the content away from the edges */
-    color: white; /* Adjust text color if needed for contrast */
+    color: black; /* Adjust text color if needed for contrast */
     text-align: center; /* Centers the text */
 }
 
