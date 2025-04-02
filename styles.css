@@ -216,3 +216,11 @@ h1 {
 p {
     margin-bottom: 20px;
 }
+.center-logo {
+    display: block;           /* Makes the logo behave as a block element */
+    margin: 0 auto;           /* Centers it horizontally */
+    max-width: 200px;         /* Limits the logo's width (adjust as necessary) */
+    height: auto;             /* Ensures the aspect ratio is maintained */
+    position: relative;       /* Required for positioning it with respect to its parent */
+    top: 20px;                /* Adjust the vertical positioning as needed */
+}
