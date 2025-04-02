@@ -157,10 +157,12 @@ nav ul li a {
 
 /* Travel Tips Grid (Updated) */
 .tips-list {
-    display: grid; /* Change from flex to grid */
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Create responsive grid */
-    gap: 20px;
+    display: grid; /* Set to grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Grid layout */
+    gap: 20px; /* Spacing between grid items */
     padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Limit the max width of the grid */
 }
 
 .tip {
@@ -188,6 +190,6 @@ nav ul li a {
 /* Responsive Design for Tips Grid */
 @media (max-width: 768px) {
     .tips-list {
-        grid-template-columns: 1fr; /* For small screens, make it a single column */
+        grid-template-columns: 1fr; /* Single column on small screens */
     }
 }
