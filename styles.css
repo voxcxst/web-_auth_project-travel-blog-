@@ -112,8 +112,7 @@ nav ul li a {
         width: 80%;
     }
 }
-/* Explore Section Styling */
-/* Explore Section Styling */
+
 /* Explore Section Styling */
 .explore-section {
     position: relative;
@@ -156,20 +155,39 @@ nav ul li a {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); /* Optional, adds shadow for better readability */
 }
 
-
-.explore-section h2 {
-    font-size: 3em; /* Adjust the size of the heading */
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Optional, adds shadow for better readability */
-}
-/* Paragraph Styling */
-.explore-section p {
-    font-size: 1.2em; /* Adjust font size for the paragraph */
-    color: white; /* White text color for contrast */
-    max-width: 800px; /* Max width for the paragraph to avoid stretching too far */
-    margin: 20px auto; /* Adds spacing around the paragraph */
-    line-height: 1.6; /* Adds spacing between lines for readability */
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); /* Optional, adds shadow for better readability */
+/* Travel Tips Grid (Updated) */
+.tips-list {
+    display: grid; /* Change from flex to grid */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Create responsive grid */
+    gap: 20px;
+    padding: 20px;
 }
 
+.tip {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.tip h3 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.tip ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tip ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design for Tips Grid */
+@media (max-width: 768px) {
+    .tips-list {
+        grid-template-columns: 1fr; /* For small screens, make it a single column */
+    }
+}
