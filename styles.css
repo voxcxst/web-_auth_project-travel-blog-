@@ -199,3 +199,20 @@ nav ul li a {
         grid-template-columns: 1fr; /* Single column on small screens */
     }
 }
+.about-content {
+    background-image: url('your-image.jpg'); /* Path to your background image */
+    background-size: cover; /* This ensures the image covers the entire section */
+    background-position: center center; /* Centers the image within the section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 40px; /* Add padding to keep the content away from the edges */
+    color: white; /* Adjust text color if needed for contrast */
+    text-align: center; /* Centers the text */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
